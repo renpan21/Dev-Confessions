@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Confessions</title>
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Dev Confessions</h1>
+    <p>Welcome to Dev Confessions . Type your truth, dev.</p>
+  </header>
+
+  <section id="search-section">
+    <input type="text" id="search-input" placeholder="Search confessions..." />
+  </section>
+
+  <main id="confession-list"></main>
+
+  <div id="pagination">
+    <button id="prev-page" disabled>Prev</button>
+    <span id="page-info"></span>
+    <button id="next-page">Next </button>
+  </div>
+
+    <div id="modal">
+    <div>
+      <h3>Warning</h3>
+      <p id="modal-message"></p>
+      <button onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>Dev Confessions | Open Source Project</p>
+    <div id="post-count" style="text-align:center;margin-bottom:10px;"></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
