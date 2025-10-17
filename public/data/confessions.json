@@ -1,0 +1,10 @@
+[
+  {
+    "id": "conf-20251017-012",
+    "date": "2025-10-18",
+    "author": "auth",
+    "content": "<script>alert(1)</alert>",
+    "tags": ["debug", "oops"],
+    "language": "en"
+  }
+]
